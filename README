@@ -1,0 +1,23 @@
+Projeto criado para aprender a fazer um CRUD no react.js 
+
+Esté e meu primeiro projeto com esta ideia 
+
+video aula usada: https://www.youtube.com/watch?v=T8mqZZ0r-RA
+
+Aqui colocarei comentarios e comando usados na aula para que o Marcos Lutero(ou
+qualquer outro desenvolvedor)do futuro saiba como cheguei no resultado final
+
+Primeiro fazemos 2 pastas 
+ - client: onde ficara o frontend da aplicação
+  -- para baixar o pacote do react usaremos o comando:
+    npx creact-react-app . (o ponto significa que sera instalado na pasta atual)
+    ou o comando yarn creact react-add .
+  -- yarn start ou npm start para rodar o projeto
+  -- iremos apagar alguns arquivos que nao utilizaremos no projeto:
+    (app.test.js, index.css, logo.svg, serviceWorker.js e setupTest.js)
+    
+
+
+
+ - server: onde ficara o backend da aplicação
+
