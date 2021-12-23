@@ -12,12 +12,30 @@ Primeiro fazemos 2 pastas
   -- para baixar o pacote do react usaremos o comando:
     npx creact-react-app . (o ponto significa que sera instalado na pasta atual)
     ou o comando yarn creact react-add .
-  -- yarn start ou npm start para rodar o projeto
+    yarn start ou npm start para rodar o projeto
   -- iremos apagar alguns arquivos que nao utilizaremos no projeto:
     (app.test.js, index.css, logo.svg, serviceWorker.js e setupTest.js)
+
     
 
-
-
  - server: onde ficara o backend da aplicação
+  --para criar um aplicativo node.js usaremos o comando:
+    npm init(e vai apertando enter até finalizar)
+  --depois criaremos um arquivo chamado index.js onde nosso servidor será execultado
+  --para instalar o nosso servidor expresso usaremos o comando:
+    npm install express body-parser mysql 
+  --depois iremos instalar outra dependencia: (para que nao precisemos reiniciar o servidor para alguma atualização)
+    npm install nodemon
+  --para rodar o server usaremos o comando:
+    node index.js
+  --no package.json usaremos um script para iniciar o projeto:
+  "start": "node index.js",
+  --ainda no package.json usaremo outro script para saber que usamos o ambiente de servidor e nao de desenvolvimento:
+    "devStart": "nodemon index.js",
+  
+  
+  
+
+
+    
 

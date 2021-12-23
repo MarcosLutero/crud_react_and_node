@@ -1,8 +1,8 @@
-// npm init pra iniciar o servidor
-// npm install nodemon
-// nmp install express body-parser mysql
+//agora vamos criar nosso servidor expresso
 
+//comando usado para criar o servidor expresso
 const express = require('express');
+//criando um app da variavel express
 const app = express();
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
@@ -29,6 +29,11 @@ app.post('/api/insert', (req, res)=>{
   })
 })
 
+/*
+vamos criar essa variavel para pasar qual porta vamos abrir
+ja que nosso react-client está rodando na porta 3001
+*/
 app.listen(3001, () =>{
+  //um console;.log apenas para saber se realmente estamos no porta 3001
   console.log("running on port 3001")
 });
