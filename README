@@ -15,6 +15,9 @@ Primeiro fazemos 2 pastas
     yarn start ou npm start para rodar o projeto
   -- iremos apagar alguns arquivos que nao utilizaremos no projeto:
     (app.test.js, index.css, logo.svg, serviceWorker.js e setupTest.js)
+  --iremos instalar o axios :
+   -- que é um cliente HTTP baseado em promessas (promise) para o navegador e node.js
+   -- para instalar usamos o comando npm i axios
 
     
 
@@ -31,7 +34,17 @@ Primeiro fazemos 2 pastas
   --no package.json usaremos um script para iniciar o projeto:
   "start": "node index.js",
   --ainda no package.json usaremo outro script para saber que usamos o ambiente de servidor e nao de desenvolvimento:
-    "devStart": "nodemon index.js",
+    "devStart": "nodemon index.js", 
+  -- vamos instalar o cors:
+    -- npm install cors
+
+
+
+- database: 
+ - usaremos o mysql workbench como nosso banco de dados
+ - criaremos nosso banco de dados no local host e as tabelas nescessarias para o nosso crud 
+
+
   
   
   
